@@ -49,7 +49,7 @@ public class ArmCommand extends Command {
         } 
     }
         else {
-            RobotMap.armController.set(0);
+            RobotMap.armController.set(0); //hey
         
     }
     if (Robot.m_oi.driver2.getRawButton(11)== true){
